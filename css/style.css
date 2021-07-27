@@ -1,0 +1,61 @@
+html {
+    font-family: helvetica;
+    background-color: rgb(76, 92, 79);
+}
+
+.container {
+    max-width: 1200px;
+    position: relative;
+    margin: 50px auto;
+    padding: 20px 50px;
+    background-color: rgb(255, 255, 255);
+}
+
+/*cabeçalho*/
+
+.cabecalho {
+    text-align: center;
+}
+
+.titulo-principal {
+    font-size: 40px;
+}
+
+.paragrafo-principal {
+    font-style: italic;
+}
+
+/*corpo do site*/
+
+.img-destaque {
+    text-align: center;
+    margin-top: 30px;
+    border-style: solid;
+    border-radius: 10px
+}
+
+/*biografia container*/
+
+.biografia-container {
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+/*citações*/
+
+.frase-container {
+    background-color: rgb(172, 202, 158);
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.frase-container blockquote {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.frase-container p {
+    font-style: italic;
+}
